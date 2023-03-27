@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DownloadTest3RazorClassLibraryNoViewSupport\DownloadTest3RazorClassLibraryNoViewSupport.csproj" />
+	  <PackageReference Include="BootstrapBlazor.WebAPI" Version="7.0.5" />
+  </ItemGroup>
+
+</Project>
